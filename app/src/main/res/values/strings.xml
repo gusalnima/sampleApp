@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">gusalnimStudy</string>
+
+    <string name="label_enter">확인</string>
+
+    <string name="permission_reject">[%1$s] 접근 권한이 없습니다. 이 메뉴를 이용하시려면 \'설정 &gt; 애플리케이션 &gt; 서울도시가스 &gt; 권한\'으로 이동하셔서 [%2$s] 권한을 허용해주셔야 합니다.</string>
+
+    <string-array name="menu_list">
+        <item>주요 업무</item>
+        <item>회원 인증</item>
+        <item>간편 조회</item>
+        <item>실시간 요금 계산</item>
+    </string-array>
+</resources>

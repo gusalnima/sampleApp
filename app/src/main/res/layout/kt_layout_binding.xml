@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/tall"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:hint="키를 입력하세요"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:text="cm"
+        app:layout_constraintBottom_toBottomOf="@id/tall"
+        app:layout_constraintLeft_toRightOf="@id/tall" />
+
+    <EditText
+        android:id="@+id/weight"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:hint="체중을 입력하세요"
+        app:layout_constraintLeft_toLeftOf="@id/tall"
+        app:layout_constraintTop_toBottomOf="@id/tall" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:text="kg"
+        app:layout_constraintBottom_toBottomOf="@id/weight"
+        app:layout_constraintLeft_toRightOf="@id/weight" />
+
+    <TextView
+        android:id="@+id/st"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="입력후 버튼을 눌러주세요"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="클릭"
+        app:layout_constraintLeft_toLeftOf="@id/st"
+        app:layout_constraintRight_toRightOf="@id/st"
+        app:layout_constraintTop_toBottomOf="@id/st" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
