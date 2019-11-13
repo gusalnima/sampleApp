@@ -5,5 +5,30 @@
     <Button
         android:id="@+id/btnCreateButton"
         android:layout_width="wrap_content"
+        android:text="DB생성"
         android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/btnInsertButton"
+        android:layout_width="wrap_content"
+        android:text="Data생성"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/btnSelectButton"
+        android:layout_width="wrap_content"
+        android:text="Data가져오기"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/btnDeleteButton"
+        android:layout_width="wrap_content"
+        android:text="Data업데이트"
+        android:layout_height="wrap_content" />
+    <ListView
+        android:id="@+id/lvPeople"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="invisible">
+
+
+
+    </ListView>
 </LinearLayout>

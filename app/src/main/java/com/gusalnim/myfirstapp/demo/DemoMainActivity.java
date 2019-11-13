@@ -43,8 +43,6 @@ public class DemoMainActivity extends BaseActivity implements View.OnClickListen
         findViewById(R.id.recycle2).setOnClickListener(this);
         findViewById(R.id.viewpager).setOnClickListener(this);
         findViewById(R.id.simpleSqlite).setOnClickListener(this);
-        findViewById(R.id.sqlite).setOnClickListener(this);
-        findViewById(R.id.ktbtn).setOnClickListener(this);
         initUi();
     }
 
@@ -125,12 +123,6 @@ public class DemoMainActivity extends BaseActivity implements View.OnClickListen
                 break;
             case R.id.simpleSqlite:
                 startActivity(new Intent(DemoMainActivity.this, SimpleSqliteActivity.class));
-                break;
-            case R.id.sqlite:
-                startActivity(new Intent(DemoMainActivity.this, SQLiteActivity.class));
-                break;
-            case R.id.ktbtn:
-                startActivity(new Intent(DemoMainActivity.this, KtMainActivity.class));
                 break;
         }
     }

@@ -25,16 +25,6 @@
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="sqlite"
+        android:text="simpleSqlite"
         android:id="@+id/simpleSqlite"/>
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="sqlite"
-        android:id="@+id/sqlite"/>
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="코플린예제"
-        android:id="@+id/ktbtn"/>
 </LinearLayout>

@@ -1,15 +1,15 @@
 [
   {
     "title" : "kotlinStudy",
-    "link" : "com.gusalnim.myfirstapp.demo.KtMainActivity"
+    "link" : "com.gusalnim.kotlinsample.KtMainActivity"
   },
   {
     "title" : "googleMaps",
     "link" : "com.gusalnim.myfirstapp.demo.GoogleMapsActivity"
   },
   {
-    "title" : "kotlinStudy",
-    "link" : "KtMainActivity"
+    "title" : "sqLite",
+    "link" : "com.gusalnim.myfirstapp.demo.SQLiteActivity"
   },
   {
     "title" : "kotlinStudy",
